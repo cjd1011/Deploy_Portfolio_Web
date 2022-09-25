@@ -35,7 +35,7 @@ st.title("Investment Portfolio")
 
 st.markdown("##")
 
-df = pd.read_excel('Portafolio Inversion.xlsx')
+df = pd.read_excel('Portafolio.xlsx')
 
 Activo = st.selectbox(
         "Seleccione el Activo:",
