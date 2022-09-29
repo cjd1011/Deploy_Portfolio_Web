@@ -4,19 +4,11 @@
 # In[ ]:
 
 
-#pip install openpyxl
+import streamlit as st
+import openpyxl
+import plotly.express as px
 import pandas as pd #pip install pandas
-import plotly.express as px #pip install plotly-express
-import streamlit as st #pip install streamlit
-
-import datetime #pip install datetime
-
-import pickle 
-from pathlib import Path #pip install pathlib
-
-import altair as alt #pip install altair
-import plotly.graph_objects as go #pip install plotly
-import streamlit_authenticator as stauth #pip install streamlit-authenticator
+import plotly.graph_objects as go
 
 st.set_page_config(
      page_title="Investment Portfolio",
@@ -77,41 +69,3 @@ tab2.subheader("Asset Database")
 tab2.write(df_seleccion)
 
 #st.dataframe(df_seleccion)
-
-
-
-
-
-
-     
-                                
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                     
-                     
